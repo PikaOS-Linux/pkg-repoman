@@ -1,4 +1,0 @@
-[D-BUS Service]
-Name=org.pop_os.repoman
-Exec=/usr/bin/python3 /usr/lib/repoman/service.py
-User=root
