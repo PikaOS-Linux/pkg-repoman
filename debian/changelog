@@ -1,3 +1,9 @@
+repoman (2.2.0~99pika8-lunar) lunar; urgency=medium
+
+  * Update to lunar
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 09 Oct 2022 21:38:00 +0300
+
 repoman (2.2.0~99pika8) kinetic; urgency=medium
 
   * Super release
