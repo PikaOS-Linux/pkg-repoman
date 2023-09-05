@@ -1,5 +1,5 @@
 # Clone Upstream
-git clone https://github.com/pop-os/repoman
+git clone https://github.com/PikaOS-Linux/repoman
 rm -rvf ./repoman/debian
 cp -rvf ./debian ./repoman
 cd ./repoman
@@ -8,8 +8,7 @@ cd ./repoman
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p repoman_2.2.0
-dpkg-buildpackage
+dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
